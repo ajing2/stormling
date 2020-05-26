@@ -59,7 +59,7 @@ on duplicate key update, 通过向数据库中插入一条记录: 若该数据�
 我们来时直接来看mybatis的sql语句吧
 
 ```sql
-<insert id="initOrUpdateRecord" parameterType="com.longfor.minevar.client.fetcher.provider.dto.JiraActiveDailyDTO"  useGeneratedKeys="true" keyProperty="id">
+<insert id="initOrUpdateRecord" parameterType="com.test.minevar.client.fetcher.provider.dto.JiraActiveDailyDTO"  useGeneratedKeys="true" keyProperty="id">
     INSERT INTO `t_jira_active_daily`
     <trim prefix="(" suffix=")" suffixOverrides=",">
       `alm_id`,

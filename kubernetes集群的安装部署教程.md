@@ -85,3 +85,37 @@ systemctl enable kubelet && systemctl start kubelet
 
 ```
 
+### 3. 修改内核参数
+
+ vi /etc/sysctl.conf 
+
+```
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward = 1
+
+```
+
+执行如下命令， 让配置生效
+
+```
+sysctl -p
+
+```
+
+## 4. 关闭swap
+
+```
+swapoff -a
+```
+
+避免关机又开启swap， 编辑/etc/fsab文件， 注释掉如下：
+
+```
+/dev/mapper/centos-swap swap swap default 0 0 
+```
+
+ 如上环境准备已OK，接下来是master节点的安装配置 
+
+## 5. 关闭防火墙
+
