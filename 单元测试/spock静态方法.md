@@ -165,7 +165,6 @@ class Account {
 CustomerTestCase.groovy
 
 ```groovy
-package groovy.com.longfor.minevar.fetcher.provider.test
 
 import org.junit.runner.RunWith
 import org.powermock.api.mockito.PowerMockito
