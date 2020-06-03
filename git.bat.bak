@@ -1,7 +1,0 @@
-@echo off
-@title bat execute git auto commit 
-E:
-cd E:\stormling
-git add .
-git commit -m "commit"
-git push
