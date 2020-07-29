@@ -11,27 +11,27 @@
 //// 👍 1126 👎 0
 //
 ////Java：反转链表
-//class P206ReverseLinkedList{
-//    public static void main(String[] args) {
-//        Solution solution = new P206ReverseLinkedList().new Solution();
-//        // TO TEST
-//    }
-//    //leetcode submit region begin(Prohibit modification and deletion)
-///**
-// * Definition for singly-linked list.
-// * public class ListNode {
-// *     int val;
-// *     ListNode next;
-// *     ListNode(int x) { val = x; }
-// * }
-// */
-//
-//
-//public class ListNode {
-//    int val;
-//    ListNode next;
-//    ListNode(int x) { val = x; }
-// }
+class P206ReverseLinkedList{
+    public static void main(String[] args) {
+        Solution solution = new P206ReverseLinkedList().new Solution();
+        // TO TEST
+    }
+    //leetcode submit region begin(Prohibit modification and deletion)
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+
+
+public static class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+ }
 
 class Solution {
     public ListNode reverseList(ListNode head) {
@@ -50,4 +50,4 @@ class Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-//}
+}

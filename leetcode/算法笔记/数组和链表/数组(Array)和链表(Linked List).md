@@ -62,6 +62,8 @@ delete: O(1)
 
 ## 1. 反转一个单链表。
 
+leetcode 206题
+
 **示例:**
 
 ```
@@ -105,5 +107,17 @@ def reverseList(self, head):
     while cur:
         cur.next, prev, cur = prev, cur, cur.next
     return prev
+```
+
+
+
+## 2. 两两交换链表中节点
+
+leetcode24题
+
+```
+示例: 
+//
+// 给定 1->2->3->4, 你应该返回 2->1->4->3.
 ```
 

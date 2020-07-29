@@ -1,16 +1,16 @@
 
 Z	java:S106'"9Replace this use of System.out or System.err by a logger.(üÓÜËşÿÿÿÿ8¾ô¢áµ.
-v
-java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(ò³¬œ8ò¾…ˆ·.
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(Š½Ò¿øÿÿÿÿ8ìî£áµ.
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(Üâ›Ÿ8ˆŠÑâµ.
 Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ƒ¦û›şÿÿÿÿ8ìî£áµ.
 C
 java:S1659X"!Declare "ans" on a separate line.(óóåæşÿÿÿÿ8ğ±ˆˆ·.
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(Üâ›Ÿ8ˆŠÑâµ.
-j
-java:S2175B"HA "HashMap<Object, Integer>" cannot contain a "char" in a "Object" type.(õ„âÊÿÿÿÿÿ8Ÿ¿Áâµ.
+t	java:S127I"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ä…¦Û8´Èâµ.
+v
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(ò³¬œ8ò¾…ˆ·.
 j
 java:S2175H"HA "HashMap<Object, Integer>" cannot contain a "char" in a "Object" type.(‰é«Ğÿÿÿÿÿ8Ÿ¿Áâµ.
-t	java:S127I"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ä…¦Û8´Èâµ.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Š½Ò¿øÿÿÿÿ8ìî£áµ.
+j
+java:S2175B"HA "HashMap<Object, Integer>" cannot contain a "char" in a "Object" type.(õ„âÊÿÿÿÿÿ8Ÿ¿Áâµ.
 e
 java:S2175F"HA "HashMap<Object, Integer>" cannot contain a "char" in a "Object" type.(‚Û´ù8Ÿ¿Áâµ.
