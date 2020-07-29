@@ -13,9 +13,8 @@
 // Related Topics 链表 数学 
 // 👍 4608 👎 0
 
-package leetcode.editor.cn;
 //Java：两数相加
-public class P2AddTwoNumbers{
+class P2AddTwoNumbers{
     public static void main(String[] args) {
         Solution solution = new P2AddTwoNumbers().new Solution();
         // TO TEST

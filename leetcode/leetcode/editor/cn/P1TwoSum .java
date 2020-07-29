@@ -14,8 +14,6 @@
 // Related Topics 数组 哈希表 
 // 👍 8663 👎 0
 
-package leetcode.editor.cn;
-
 import java.util.HashMap;
 
 //Java：两数之和
