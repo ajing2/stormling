@@ -538,3 +538,196 @@ public static final int x = 1000;
 ```
 
 在编译尖端会为x生成ConstantValue属性， 在准备阶段虚拟机会根据ConstantValue属性将X赋值为1000
+
+## 6. 解析
+
+解析是虚拟机将常量池的**符号引用替换为直接引用的过程**。
+
+```
+解析动作主要针对类或接口、字段、类方法、接口方法四类符号引用进行，分别对应于常量池中的CONSTANT_Class_info, CONSTANT_Fieldref_info, CONSTANT_Methodref_info, CONSTANT_InterfaceMethodref_info，四种常量类型
+```
+
+
+
+## 7. 初始化
+
+初始化是类加载过程的最后一步，到了此阶段，才真正开始执行类中定义的Java程序代码(初始化成为代 码设定的默认值)。
+
+其实初始化过程就是调用类初始化方法的过程，完成对static修饰的类变量的手动赋值还有主动调用静 态代码块。
+
+**初始化过程的注意点**
+
+方法是编译器自动收集**类中所有类变量的赋值动作和静态语句块中的语句合并产生**的，编译器收集 的顺序是由语句在源文件中出现的顺序所决定的. 静态代码块只能访问到出现在静态代码块之前的变量，定义在它之后的变量，在前面的静态语句块 可以赋值，但是不能访问. 虚拟机会保证在多线程环境中一个类的方法被正确地加锁，同步.当多条线程同时去初始化一个类 时，只会有一个线程去执行该类的方法，其它线程都被阻塞等待，直到活动线程执行方法完毕.其他线程虽会被阻塞，只要有一个方法执行完，其它线程唤醒后不会再进入方法.同一个类加载器 下，一个类型只会初始化一次.
+
+使用静态内部类的单例实现：
+
+```java
+public class Student {
+    private Student() {}
+/*
+* 此处使用一个内部类来维护单例 JVM在类加载的时候，是互斥的，所以可以由此保证线程安全
+问题
+*/
+    private static class SingletonFactory {
+        private static Student student = new Student();
+}
+/* 获取实例 */
+public static Student getSingletonInstance() {
+        return SingletonFactory.student;
+    }
+}
+```
+
+
+
+# 7. 类加载器
+
+不同类加载器对象，如果对同一个类进行加载，会形成不同的Class对象。
+
+![14](14.jpg)
+
+- 启动类加载器（Bootstrap ClassLoader）:
+  - 负责加载JAVA_HOME/lib/目录中的
+  - 或通过-Xbootclasspath参数指定路劲中
+  - 且被虚拟机认可（按文件名识别， 如rt.jar）的类
+  - 由C++实现， 不是ClassLoader子类
+- 扩展类加载器（Extension ClassLoader)：
+  - 负责加载JAVA_HOME/lib目录中的
+  - 或通过java.ext.dirs系统变量指定路劲中的类库
+- 应用程序类加载器（Application ClassLoader）:
+  - 负责加载用户路劲（classpath）上的类库
+
+JVM的类加载是通过ClassLoader及其子类来完成的， 类的层次关系和加载顺序可以由下图来描述
+
+1. 按照顺序检查类是否已经加载
+   1. Custom ClassLoader
+   2. App ClassLoader
+   3. Extension ClassLoader
+   4. Bootstrap ClassLoader
+2. 按照顺序尝试加载类
+   1. load JRE/lib/rt.jar或者-Xbootclasspath选项指定的jar包
+   2. load JRE/lib/ext\*.jar或-Djava.ext.dirs指定目录下的jar包
+   3. load CLASSPATH或-Djava.class.path所指定的目录下的类的jar包
+   4. 通过java.lang.ClassLoader的子类自定义加载class
+
+加载过程中会先检查类是否被已加载，检查顺序是自底向上，从Custom ClassLoader到BootStrap ClassLoader逐层检查，只要某个classloader已加载就视为已加载此类，保证此类只所有ClassLoader 加载一次。而加载的顺序是自顶向下，也就是由上层来逐层尝试加载此类。
+
+
+
+## 自定义类加载器
+
+**自定义类加载器步骤**
+
+(1)继承ClassLoader
+
+(2)重写findClass()方法 
+
+(3)调用defineClass()方法
+
+
+
+实践
+
+下面写一个自定义类加载器:指定类加载路径在D盘下的lib文件夹下。
+
+ (1)在本地磁盘新建一个 Test.java 类，代码如下:
+
+```java
+package jvm.classloader;
+public class Test {
+    public void say(){
+        System.out.println("Hello MyClassLoader");
+} }
+```
+
+(2) 使用 `javac -d . Test.java` 命令，将生成的 Test.class文件放到 D:/lib/jvm/classloader文件夹下。
+
+(3) 在Eclipse中自定义类加载器，代码如下:
+
+```java
+package jvm.classloader;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+public class MyClassLoader extends ClassLoader{
+    private String classpath;
+    public MyClassLoader(String classpath) {
+        this.classpath = classpath;
+    }
+		@Override
+    protected Class<?> findClass(String name) throws ClassNotFoundException{
+        try {
+            byte [] classDate=getData(name);
+            if(classDate==null){}
+            else{
+								//defineClass方法将字节码转化为类
+								return defineClass(name，classDate，0，classDate.length); }
+        } catch (IOException e) {
+            e.printStackTrace();
+				}
+        return super.findClass(name);
+    }
+  	//返回类的字节码
+		private byte[] getData(String className) throws IOException{
+        InputStream in = null;
+        ByteArrayOutputStream out = null;
+        String path=classpath + File.separatorChar + className.replace('.'，File.separatorChar)+".class";
+        try {
+            in=new FileInputStream(path);
+            out=new ByteArrayOutputStream();
+            byte[] buffer=new byte[2048];
+            int len=0;
+            while((len=in.read(buffer))!=-1){
+								out.write(buffer，0，len); 
+            }
+            return out.toByteArray();
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } finally{
+						in.close();
+            out.close();
+        }
+        return null;
+    }
+}
+ 
+```
+
+测试代码如下:
+
+```java
+package jvm.classloader;
+import java.lang.reflect.Method;
+public class TestMyClassLoader {
+		public static void main(String []args) throws Exception{ 
+    	//自定义类加载器的加载路径
+			MyClassLoader myClassLoader=new MyClassLoader("D:\\lib"); 
+      //包名+类名
+      Class c=myClassLoader.loadClass("jvm.classloader.Test");
+			if(c!=null){
+				Object obj=c.newInstance();
+				Method method=c.getMethod("say"， null); method.invoke(obj， null);
+      	System.out.println(c.getClassLoader().toString());
+			} 
+    }
+}
+```
+
+输出结果：
+
+```
+Hello MyClassLoader
+jvm.classloader.MyClassLoader@4e254f
+```
+
+
+
+**自定义类加载器的作用:**
+
+> JVM自带的三个加载器只能加载指定路径下的类字节码。
+>
+> 如果某个情况下，我们需要加载应用程序之外的类文件呢?比如本地D盘下的，或者去加载网络上的某个 类文件，这种情况就可以使用自定义加载器了
