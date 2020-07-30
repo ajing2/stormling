@@ -1,6 +1,5 @@
 
-X	java:S125"<This block of commented-out lines of code should be removed.(•Îô8ñ­äÈ¹.
-]	java:S125"<This block of commented-out lines of code should be removed.(íØ„ïûÿÿÿÿ8ñ­äÈ¹.
-]	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ñ­äÈ¹.
-]	java:S1255"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ñ­äÈ¹.
-]	java:S125"<This block of commented-out lines of code should be removed.(ÓÉÒ«ÿÿÿÿÿ8ñ­äÈ¹.
+O
+java:S1481"-Remove this unused "solution" local variable.(îÑ·Ÿûÿÿÿÿ8â­şĞ¹.
+^
+java:S1854"<Remove this useless assignment to local variable "solution".(îÑ·Ÿûÿÿÿÿ8â­şĞ¹.
