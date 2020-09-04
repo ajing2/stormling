@@ -1,0 +1,16 @@
+
+[	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ÿ
+[	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(Ÿ
+k
+java:S1149:"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(×Ö¥üıÿÿÿÿ
+k
+java:S1149;"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ù¥ê§ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ğ´öÊûÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(ÿ¥|
+Q	java:S125&"<This block of commented-out lines of code should be removed.(…ŠŠ 
+V	java:S125+"<This block of commented-out lines of code should be removed.(Ğ´öÊûÿÿÿÿ
+P	java:S125-"<This block of commented-out lines of code should be removed.(ÿ¥|
+V	java:S1251"<This block of commented-out lines of code should be removed.(®ƒÙËüÿÿÿÿ
+V	java:S1253"<This block of commented-out lines of code should be removed.(½ºÍÍøÿÿÿÿ
+V	java:S1256"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
