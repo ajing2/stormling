@@ -26,6 +26,8 @@ import java.util.Map;
 class P242ValidAnagram{
     public static void main(String[] args) {
         Solution solution = new P242ValidAnagram().new Solution();
+        String a = "";
+        a.equals()
         // TO TEST
     }
     //leetcode submit region begin(Prohibit modification and deletion)

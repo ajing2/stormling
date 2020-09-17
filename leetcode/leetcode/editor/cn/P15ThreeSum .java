@@ -18,6 +18,8 @@
 // Related Topics 数组 双指针 
 // 👍 2584 👎 0
 
+import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
+
 import java.util.*;
 
 //Java：三数之和
@@ -39,29 +41,68 @@ import java.util.*;
 //    }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+
     public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null && nums.length < 3) {
+            return res;
+        }
         Arrays.sort(nums);
-        Set<List<Integer>> res = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] > 0) {
-                break;
-            }
-            HashMap<Integer, Integer>map = new HashMap<>();
-            for (int j = i + 1; j < nums.length; j++) {
-                // a + b + c = 0, 则 b + c = -a, -nums[i]就是-a
-                if (map.containsKey(-nums[i] - nums[j])) {
-                    List<Integer> tmp = new ArrayList<>();
-                    tmp.add(nums[i]);
-                    tmp.add(nums[j]);
-                    tmp.add(-nums[i] - nums[j]);
-                    res.add(tmp);
+            if (nums[i] > 0) break;
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            int L = i + 1;
+            int R = nums.length - 1;
+            while (L < R) {
+                int sum = nums[i] + nums[L] + nums[R];
+                if (sum == 0) {
+                    res.add(Arrays.asList(nums[i], nums[L], nums[R]));
+                    // 去重
+                    while (L < R && nums[L] == nums[L + 1]) {
+                        L++;
+                    }
+                    // 去重
+                    while (L < R && nums[R] == nums[R - 1]) {
+                        R--;
+                    }
+                    L++;
+                    R--;
+                } else if (sum > 0) {
+                    R--;
                 } else {
-                    map.put(nums[j], j);
+                    L++;
                 }
+
             }
         }
-        return new ArrayList<>(res);
+
+        return res;
+
     }
+
+//    public List<List<Integer>> threeSum1(int[] nums) {
+//        Arrays.sort(nums);
+//        Set<List<Integer>> res = new HashSet<>();
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] > 0) {
+//                break;
+//            }
+//            HashMap<Integer, Integer>map = new HashMap<>();
+//            for (int j = i + 1; j < nums.length; j++) {
+//                // a + b + c = 0, 则 b + c = -a, -nums[i]就是-a
+//                if (map.containsKey(-nums[i] - nums[j])) {
+//                    List<Integer> tmp = new ArrayList<>();
+//                    tmp.add(nums[i]);
+//                    tmp.add(nums[j]);
+//                    tmp.add(-nums[i] - nums[j]);
+//                    res.add(tmp);
+//                } else {
+//                    map.put(nums[j], j);
+//                }
+//            }
+//        }
+//        return new ArrayList<>(res);
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
