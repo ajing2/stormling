@@ -1,0 +1,19 @@
+
+]	java:S125S"<This block of commented-out lines of code should be removed.(–Şœÿÿÿÿÿ8ãáø×É.
+X	java:S125]"<This block of commented-out lines of code should be removed.(¯õ·Ö8ãáø×É.
+]	java:S125"<This block of commented-out lines of code should be removed.(ºÅù¸şÿÿÿÿ8Äü÷¸É.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(¬Ÿê³şÿÿÿÿ8­‡ı×É.
+]	java:S125m"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Äü÷¸É.
+m	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÑÏÍ8„Ö××É.
+d
+java:S2259/"BA "NullPointerException" could be thrown; "nums" is nullable here.(éäÂÖÿÿÿÿÿ8²úÑ×É.
+X	java:S125"<This block of commented-out lines of code should be removed.(¡çìÇ8Äü÷¸É.
+]	java:S125#"<This block of commented-out lines of code should be removed.(ğãŠùÿÿÿÿ8Äü÷¸É.
+q
+java:S1128"ORemove this unused import 'com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ'.(¬Ÿê³şÿÿÿÿ8­‡ı×É.
+t
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(“®öÃşÿÿÿÿ8î¬ë×É.
+r	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚“ˆâúÿÿÿÿ8„Ö××É.
+z	java:S1353"YReduce the total number of break and continue statements in this loop to use at most one.(ØÕ—©ıÿÿÿÿ8åóÿ×É.
+X	java:S125("<This block of commented-out lines of code should be removed.(ÊêÌì8Äü÷¸É.
