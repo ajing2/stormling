@@ -1,10 +1,10 @@
 
-V	java:S125X"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-V	java:S125?"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+k	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ôµ¨úÿÿÿÿ
 k
 java:S1149G"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ
 k	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ôµ¨úÿÿÿÿ
 1
 java:S3626M"Remove this redundant jump.(ÉŠ©ƒ
-k	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ôµ¨úÿÿÿÿ
 Q	java:S125;"<This block of commented-out lines of code should be removed.(Ëú¡—
+V	java:S125X"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V	java:S125?"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ

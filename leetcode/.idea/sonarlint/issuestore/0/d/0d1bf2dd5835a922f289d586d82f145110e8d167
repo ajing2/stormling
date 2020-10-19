@@ -1,9 +1,9 @@
 
+M
+java:S1128+"1Remove this unused import 'java.util.LinkedList'.(»Äğ18ÓˆàåÆ.
 O
 java:S14810"-Remove this unused "solution" local variable.(¬Èº‚ıÿÿÿÿ8È¶İæÆ.
 ^
 java:S18540"<Remove this useless assignment to local variable "solution".(¬Èº‚ıÿÿÿÿ8È¶İæÆ.
 Q
 java:S1066?"/Merge this if statement with the enclosing one.(†”œãşÿÿÿÿ8Ô²¸æÆ.
-M
-java:S1128+"1Remove this unused import 'java.util.LinkedList'.(»Äğ18ÓˆàåÆ.

@@ -1,0 +1,10 @@
+
+U
+java:S2589'"8Remove this expression which always evaluates to "false"(µà¬Ž8ŒÒ©¬É.
+X
+java:S1854"<Remove this useless assignment to local variable "solution".(ôÂµL8òœ¹¬É.
+Q
+java:S3740*"/Provide the parametrized type for this generic.(”ˆ“Ùÿÿÿÿÿ8Ï¤–¨É.
+I
+java:S1481"-Remove this unused "solution" local variable.(ôÂµL8òœ¹¬É.
+]	java:S125+"<This block of commented-out lines of code should be removed.(¨åŸùÿÿÿÿ8ŒÒ©¬É.
