@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ef2b4b-54fe-4db4-bf6b-961cc71bd35b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Kubernetes/kubernetes开发指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kubernetes/kubernetes开发指南.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/translation.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +36,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2310" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2310" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -59,23 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/editor/cn/P703KthLargestElementInAStream .java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="644">
               <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P104MaximumDepthOfBinaryTree .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -192,9 +173,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609340553936" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609340733880" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -383,12 +365,27 @@
       <workItem from="1596982064358" duration="606000" />
       <workItem from="1599492857374" duration="2144000" />
       <workItem from="1599748955764" duration="4000" />
-      <workItem from="1608272479796" duration="4125000" />
+      <workItem from="1608272479796" duration="4398000" />
     </task>
+    <task id="LOCAL-00001" summary="sadfad">
+      <created>1609340646208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609340646208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sadfad">
+      <created>1609340686171</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609340686171</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13310000" />
+    <option name="totallyTimeSpent" value="13583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -408,7 +405,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.26369426" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.26369426" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -468,6 +465,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sadfad" />
+    <option name="LAST_COMMIT_MESSAGE" value="sadfad" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/editor/cn/P206ReverseLinkedList .java">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,13 +495,6 @@
           <folding>
             <element signature="e#0#1256#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editor/cn/P703KthLargestElementInAStream .java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -537,11 +531,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editor/cn/P104MaximumDepthOfBinaryTree .java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="1454">
           <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/cn/P703KthLargestElementInAStream .java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
         </state>
       </provider>
     </entry>
