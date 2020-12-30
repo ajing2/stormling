@@ -1,5 +1,5 @@
-import java.util.HashMap;
-import java.util.LinkedHashMap;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class TestClase {
     public static void main(String[] args) {
@@ -15,5 +15,7 @@ public class TestClase {
         hm.put(s3, 3);
         System.out.println(hm);
     }
+
+
 
 }
