@@ -92,3 +92,204 @@ https://github.com/ajing2/stormling/tree/master/netty/netty-studty
 
 ## 2. 定义服务端启动类
 
+```java
+package com.ajing;
+
+import io.netty.bootstrap.ServerBootstrap;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelPipeline;
+import io.netty.channel.EventLoopGroup;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
+import io.netty.util.CharsetUtil;
+
+// 定义服务端启动类
+public class SomeServer {
+    public static void main(String[] args) throws InterruptedException {
+        EventLoopGroup parentGroup = new NioEventLoopGroup();
+        EventLoopGroup childGroup = new NioEventLoopGroup();
+        try {
+            ServerBootstrap serverBootstrap = new ServerBootstrap();
+            serverBootstrap.group(parentGroup, childGroup)
+                    // 指定要创建的Channel类型
+                    .channel(NioServerSocketChannel.class)
+                    // 管道初始化器， 当前类的实例在pipeline初始化完毕以后就会被GC
+                    .childHandler(new ChannelInitializer<SocketChannel>() {
+                        // 当Channel初始创建完毕后就会触发该方法的执行， 用于初始化Channel
+                        @Override
+                        protected void initChannel(SocketChannel socketChannel) throws Exception {
+                            ChannelPipeline pipeline = socketChannel.pipeline();
+                            // 请求解码器， 将Channel中的ByteBuf数据解码为String
+                            pipeline.addLast(new StringDecoder(CharsetUtil.UTF_8));
+                            // 相应编码器， 将String对象编码为Channel中发送的ByteBuf数据
+                            pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
+                            // 定义自己的处理类， 要放在最后
+                            pipeline.addLast(new SomeSocketServerHandler());
+                        }
+                    });
+            // 指定当前服务器锁监听的端口号
+            // bind() 方法的执行是异步的
+            ChannelFuture future = serverBootstrap.bind(8888).sync();
+            System.out.println("服务器监听的端口为： 8888");
+            // closeFuture() 是异步的
+            future.channel().closeFuture().sync();
+        } finally {
+            parentGroup.shutdownGracefully();
+            childGroup.shutdownGracefully();
+        }
+    }
+}
+```
+
+## 3. 自定义服务端处理器
+
+```java
+package com.ajing;
+
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
+
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
+
+public class SomeSocketServerHandler extends ChannelInboundHandlerAdapter {
+
+
+    /**
+     * 当Channel中有来自客户端的数据时就会触发该方法的执行
+     * @param ctx 上下文
+     * @param msg 来自客户端的数据
+     * @throws InterruptedException
+     */
+    @Override
+    public void channelRead(ChannelHandlerContext ctx, Object msg) throws InterruptedException {
+        // 打印客户端的地址和发送的数据
+        System.out.println(ctx.channel().remoteAddress() + ", " + msg);
+        //想客户端发送数据
+        ctx.channel().writeAndFlush("from server: " + UUID.randomUUID());
+        TimeUnit.MICROSECONDS.sleep(3000000);
+    }
+
+
+    /**
+     * 当Channel中的数据在处理过程中出现异常时会触发该方法的执行
+     * @param ctx 上下文
+     * @param cause 发生异常的对象
+     * @throws Exception
+     */
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        cause.printStackTrace();
+        // 关闭Channel
+        ctx.close();
+    }
+}
+```
+
+## 4. 定义客户端启动类
+
+```java
+package com.ajing;
+
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelPipeline;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
+import io.netty.util.CharsetUtil;
+
+public class SomeClient {
+    public static void main(String[] args) throws InterruptedException {
+        NioEventLoopGroup eventLoopGroup = new NioEventLoopGroup();
+        try {
+            Bootstrap bootStrap = new Bootstrap();
+            bootStrap.group(eventLoopGroup)
+                    .channel(NioSocketChannel.class)
+                    .handler(new ChannelInitializer<SocketChannel>() {
+                        @Override
+                        protected void initChannel(SocketChannel socketChannel) throws Exception {
+                            ChannelPipeline pipeline = socketChannel.pipeline();
+                            pipeline.addLast(new StringDecoder(CharsetUtil.UTF_8));
+                            pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
+                            // 自定义处理器
+                            pipeline.addLast(new SomeSocketClientHandler());
+                        }
+                    });
+            ChannelFuture future = bootStrap.connect("localhost", 8888).sync();
+            future.channel().closeFuture().sync();
+        } finally {
+            if (eventLoopGroup != null) {
+                eventLoopGroup.shutdownGracefully();
+            }
+        }
+    }
+}
+```
+
+## 5. 自定义客户端处理器
+
+```java
+package com.ajing;
+
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.SimpleChannelInboundHandler;
+
+import java.time.LocalDateTime;
+import java.util.concurrent.TimeUnit;
+
+public class SomeSocketClientHandler extends SimpleChannelInboundHandler<String> {
+
+    /**
+     * msg的消息类型与类中的泛型类型是一样的
+     * @param channelHandlerContext
+     * @param s
+     * @throws Exception
+     */
+    @Override
+    protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) throws Exception {
+        System.out.println(channelHandlerContext.channel().remoteAddress() + "," + s);
+        channelHandlerContext.writeAndFlush("from client: "  + LocalDateTime.now());
+        TimeUnit.MICROSECONDS.sleep(3000000);
+    }
+
+
+    /**
+     * 当Channel被激活后会触发该方法的执行
+     * @param ctx
+     */
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) {
+        ctx.channel().writeAndFlush("from client: begin talking");
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+        cause.printStackTrace();
+        ctx.close();
+    }
+
+}
+```
+
+## 6. 两个处理器的区别
+
+SimpleChannelInboundHandler 中的 channelRead()方法会自动释放接收到的来自于对方的 msg 所占有的所有资源。
+ ChannelInboundHandlerAdapter 中的 channelRead()方法不会自动释放接收到的来自于对方的 msg
+
+- 若对方没有向自己发送数据，则自定义处理器建议继承自 ChannelInboundHandlerAdapter。因为若继承自 SimpleChannelInboundHandler 需要重写 channelRead0()方法。而重写该方法的目的是对来自于对方的数据进行处理。因为对方 根本就没有发送数据，所以也就没有必要重写 channelRead0()方法。
+
+- 若对方向自己发送了数据，而自己又需要将该数据再发送给对方，则自定义处理器建议继承自 ChannelInboundHandlerAdapter。因为 write()方法的执行是异步的，且 SimpleChannelInboundHandler 中的 channelRead()方法会自动释放掉来自于对方的 msg。 若 write()方法中正在处理 msg，而此时 SimpleChannelInboundHandler 中的 channelRead() 方法执行完毕了，将 msg 给释放了。此时就会报错。
+
+
+
+# 5. 结束语
+
+其实Netty说白了就是把复杂的socket编程改成了可用的， 高性能的nio的框架， 因为java中有很多I/O模型， BIO, NIO, AIO, 同步， 异步， 阻塞， 非阻塞， 一些非常枯燥的概念理解起来和操作起来， 是非常的麻烦的， 后期会专门写一篇IO模型的一篇文章， 自己重新梳理一下知识体系！
