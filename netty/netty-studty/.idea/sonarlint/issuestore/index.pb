@@ -9,3 +9,7 @@ n
 >01-primary/src/main/java/com/ajing/HttpChannelInitializer.java,c/b/cb574a9d068e68d5c128d00f0b0f60fc6f0dae87
 i
 901-primary/src/main/java/com/ajing/HttpServerHandler.java,9/c/9c590b133aa509c97070f530c6573e407eabdd1c
+A
+02-socket/pom.xml,c/c/cc2744370678640d120d6cbef8f1504e478ef12a
+a
+102-socket/src/main/java/com/ajing/SomeServer.java,4/2/4287b9adfd3bedacc86de86f7f99ef14e4f3c03a
