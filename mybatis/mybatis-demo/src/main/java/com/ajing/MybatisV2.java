@@ -50,6 +50,60 @@ public class MybatisV2 {
 
     private void parseMappers(Element mappers) {
         List<Element> list = mappers.elements("mapper");
+        for (Element element : list) {
+            String resource = element.attributeValue("resource");
+            // 根据xml的路劲， 获取对应的输入流
+            InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream(resource);
+            // 讲流对象转换成Document对象
+            Document document = createDocument(inputStream);
+            // 针对Document对象， 按照mybatis的语法去解析Document
+            parseMapper(document.getRootElement());
+
+        }
+
+    }
+
+    private void parseMapper(Element rootElement) {
+        namespace = rootElement.attributeValue("namespace");
+        // 获取到所有的select标签
+        List<Element> selectElements = rootElement.elements("select");
+        for (Element selectElement : selectElements) {
+            parseStatementElement(selectElement);
+        }
+
+
+    }
+
+    private void parseStatementElement(Element selectElement) {
+        String statementId = selectElement.attributeValue("id");
+
+        if (statementId == null || statementId.equals("")) {
+            return;
+        }
+        statementId = namespace + "." + statementId;
+
+        String parameterType = selectElement.attributeValue("parameterType");
+        Class<?> parameterClass = resolveType(parameterType);
+
+        String resultType = selectElement.attributeValue("resultType");
+        Class<?> resultTypeClass = resolveType(resultType);
+
+        String statementType = selectElement.attributeValue("statementType");
+        if (statementType == null || "".equals(statementType)) {
+            statementType = "prepared";
+        }
+
+
+
+    }
+
+    private Class<?> resolveType(String parameterType) {
+        try {
+            Class<?> clazz = Class.forName(parameterType);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     private void parseEnvironments(Element environments) {
