@@ -1,0 +1,29 @@
+
+>
+java:S1170"!Make this final field static too.(úƒãË8øô³Ìü.
+e
+java:S1192S"HDefine a constant instead of duplicating this literal "db.sql." 5 times.(¡¯Ğ«8İĞÎíü.
+m	java:S116"QRename this field "DRIVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úƒãË8øô³Ìü.
+C
+java:S1170"!Make this final field static too.(šÓÖæûÿÿÿÿ8øô³Ìü.
+C
+java:S1170!"!Make this final field static too.(õ­èëüÿÿÿÿ8øô³Ìü.
+P
+java:S1874n"3Remove this use of "newInstance"; it is deprecated.(­À¦…8°Ê’Îü.
+I
+java:S3011x",This accessibility bypass should be removed.(ºÕÂß8Ñ™£Îü.
+I
+java:S3011w",This accessibility update should be removed.(˜ÂÓ˜8³·¢Îü.
+I
+java:S1168˜"+Return an empty collection instead of null.(¥¹ï8³èªÎü.
+t	java:S116&"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÄˆÒıÿÿÿÿ8øô³Ìü.
+F	java:S108“")Either remove or fill this block of code.(É®£8òü¸Ìü.
+p	java:S116!"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ­èëüÿÿÿÿ8øô³Ìü.
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(†Ô“ˆùÿÿÿÿ8À îü.
+o	java:S116"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÓÖæûÿÿÿÿ8øô³Ìü.
+T	java:S106<"9Replace this use of System.out or System.err by a logger.(ÇŸ€t8À îü.
+C
+java:S1170&"!Make this final field static too.(æÄˆÒıÿÿÿÿ8øô³Ìü.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(À¢ê8À îü.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(´ûüÿÿÿÿ8ƒƒ›îü.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(Ú‰Î¼øÿÿÿÿ8À îü.

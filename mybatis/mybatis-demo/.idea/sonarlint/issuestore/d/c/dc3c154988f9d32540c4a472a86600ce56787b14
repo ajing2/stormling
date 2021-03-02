@@ -1,0 +1,15 @@
+
+o	java:S116"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÓÖæûÿÿÿÿ8¹îÂÉü.
+>
+java:S1170"!Make this final field static too.(úƒãË8§á¦Éü.
+E	java:S108O")Either remove or fill this block of code.(É®£8‡¥ÛÉü.
+m	java:S116"QRename this field "DRIVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úƒãË8§á¦Éü.
+p	java:S116"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ­èëüÿÿÿÿ8¦‡ÈÉü.
+C
+java:S1170"!Make this final field static too.(šÓÖæûÿÿÿÿ8Ü©Éü.
+t	java:S116"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÄˆÒıÿÿÿÿ8¦‡ÈÉü.
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(î³¥ü8‚ëÕÉü.
+C
+java:S1170"!Make this final field static too.(õ­èëüÿÿÿÿ8ÕÍ´Éü.
+C
+java:S1170"!Make this final field static too.(æÄˆÒıÿÿÿÿ8ÕÍ´Éü.
