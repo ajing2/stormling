@@ -11,3 +11,5 @@ Q
 !src/main/java/com/ajing/Test.java,2/a/2a6c26765c8491abf590d8ba54759f287bb22300
 V
 &src/main/java/com/ajing/MybatisV1.java,4/e/4e7303089fafe25212d6650264f6bfded22d44b4
+V
+&src/main/java/com/ajing/MybatisV2.java,3/c/3c083fc43d55355e82d05bbe053d840f80c815aa

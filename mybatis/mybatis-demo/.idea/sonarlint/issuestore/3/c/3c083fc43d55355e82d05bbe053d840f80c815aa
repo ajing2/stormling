@@ -1,0 +1,29 @@
+
+X
+java:S1854–"<Remove this useless assignment to local variable "document".(ªÈàÑÿÿÿÿÿ
+V
+java:S1854f"9Remove this useless assignment to local variable "clazz".(¨ÉÕŸ8„ªË”ÿ.
+U
+java:S1481V"3Remove this unused "parameterClass" local variable.(ì’”±øÿÿÿÿ8İÍÇ”ÿ.
+d
+java:S1854V"BRemove this useless assignment to local variable "parameterClass".(ì’”±øÿÿÿÿ8İÍÇ”ÿ.
+a
+java:S1854S"?Remove this useless assignment to local variable "statementId".(¥½Õîùÿÿÿÿ8òã¼”ÿ.
+I
+java:S1481–"-Remove this unused "document" local variable.(ªÈàÑÿÿÿÿÿ
+a
+java:S2259("FA "NullPointerException" could be thrown; "document" is nullable here.(¨ëîÿÿÿÿÿ
+G
+java:S1135"2Complete the task associated to this TODO comment.(£°§\
+c
+java:S2259<"FA "NullPointerException" could be thrown; "document" is nullable here.(ôŠ™â8òŞ¡”ÿ.
+c
+java:S1854]"ARemove this useless assignment to local variable "statementType".(–æÑ…øÿÿÿÿ8 ñÜ”ÿ.
+e
+java:S1854Y"CRemove this useless assignment to local variable "resultTypeClass".(Ùí¹µşÿÿÿÿ8½ÎÍ”ÿ.
+G
+java:S1481f"*Remove this unused "clazz" local variable.(¨ÉÕŸ8„ªË”ÿ.
+J
+java:S2755•"3Disable access to external entities in XML parsing.(ÄùÙî
+V
+java:S1481Y"4Remove this unused "resultTypeClass" local variable.(Ùí¹µşÿÿÿÿ8²şÍ”ÿ.
