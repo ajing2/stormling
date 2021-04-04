@@ -13,3 +13,5 @@ A
 02-socket/pom.xml,c/c/cc2744370678640d120d6cbef8f1504e478ef12a
 a
 102-socket/src/main/java/com/ajing/SomeServer.java,4/2/4287b9adfd3bedacc86de86f7f99ef14e4f3c03a
+\
+,01-primary/src/main/java/com/ajing/Test.java,c/4/c434bbb20f3a2fdf68f1f602d37dd485981c4604

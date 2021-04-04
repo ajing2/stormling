@@ -1,0 +1,17 @@
+
+h
+java:S2259("FA "NullPointerException" could be thrown; "document" is nullable here.(¨ëîÿÿÿÿÿ8½²ôòş.
+^
+java:S1854`"<Remove this useless assignment to local variable "document".(ªÈàÑÿÿÿÿÿ8ù·íòş.
+K
+java:S14814")Remove this unused "list" local variable.(¼©“Ğşÿÿÿÿ8´•¥ôş.
+G
+java:S1135"2Complete the task associated to this TODO comment.(£°§\
+O
+java:S1068"-Remove this unused "namespace" private field.(¬Ú˜œüÿÿÿÿ8½•æóş.
+O
+java:S1481`"-Remove this unused "document" local variable.(ªÈàÑÿÿÿÿÿ8ù·íòş.
+Z
+java:S18544"8Remove this useless assignment to local variable "list".(¼©“Ğşÿÿÿÿ8´•¥ôş.
+E
+java:S1148b"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ù·íòş.

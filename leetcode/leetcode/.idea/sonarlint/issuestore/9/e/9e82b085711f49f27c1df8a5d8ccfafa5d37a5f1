@@ -1,11 +1,11 @@
 
-0
-java:S1220""Move this file to a named package.
+H
+java:S1481 "-Remove this unused "solution" local variable.(¸¦žÊþÿÿÿÿ
 B
 java:S1481B",Remove this unused "visited" local variable.(øÉ·’
 Q
 java:S1854B";Remove this useless assignment to local variable "visited".(øÉ·’
-H
-java:S1481 "-Remove this unused "solution" local variable.(¸¦žÊþÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
 W
 java:S1854 "<Remove this useless assignment to local variable "solution".(¸¦žÊþÿÿÿÿ

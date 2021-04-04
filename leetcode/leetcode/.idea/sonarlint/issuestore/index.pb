@@ -29,3 +29,17 @@ R
 "editor/cn/P16ThreeSumClosest .java,e/4/e47e3c876e36ec4b5f45ad4a3401ec333d08896e
 K
 editor/cn/P15ThreeSum .java,6/9/69a25bfc4b00ac6b0969d1632859b733ecf2d561
+S
+#editor/cn/P141LinkedListCycle .java,4/a/4a6925ce6a7c4328fb62fa216807990e1ee52edb
+N
+editor/cn/P322CoinChange .java,4/b/4b9cae3305ba14275b8ccee378043fa6ae7b6fd7
+H
+editor/cn/P50PowxN .java,d/8/d8e2d79299fddec29114b20a9892feb7e9c0a5aa
+S
+#editor/cn/P509FibonacciNumber .java,a/7/a799406375926d0bb7f302459dada14937679f51
+O
+editor/cn/P202HappyNumber .java,1/e/1ed40ace2be566f4b7c083bf71fe70e8012da66d
+G
+editor/cn/ListNode.java,a/8/a87d5808ff857cfe0b60428c89e1ccb25b17407f
+U
+%editor/cn/P142LinkedListCycleIi .java,0/7/077a946a014f81af9a8ded3d6b8521a2ea2a7a42

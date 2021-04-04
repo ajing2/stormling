@@ -1,7 +1,7 @@
 
-C
-java:S1481"-Remove this unused "solution" local variable.(´Ãóš
 R
 java:S1854"<Remove this useless assignment to local variable "solution".(´Ãóš
 0
 java:S1220""Move this file to a named package.
+C
+java:S1481"-Remove this unused "solution" local variable.(´Ãóš

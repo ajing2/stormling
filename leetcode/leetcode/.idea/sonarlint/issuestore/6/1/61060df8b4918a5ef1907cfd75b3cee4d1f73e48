@@ -1,7 +1,7 @@
 
-W
-java:S18545"<Remove this useless assignment to local variable "solution".(ê©¾ôüÿÿÿÿ
-H
-java:S14815"-Remove this unused "solution" local variable.(ê©¾ôüÿÿÿÿ
 0
 java:S1220""Move this file to a named package.
+H
+java:S14815"-Remove this unused "solution" local variable.(ê©¾ôüÿÿÿÿ
+W
+java:S18545"<Remove this useless assignment to local variable "solution".(ê©¾ôüÿÿÿÿ
