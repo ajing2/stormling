@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ef2b4b-54fe-4db4-bf6b-961cc71bd35b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/077a946a014f81af9a8ded3d6b8521a2ea2a7a42" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ed40ace2be566f4b7c083bf71fe70e8012da66d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a6925ce6a7c4328fb62fa216807990e1ee52edb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b9cae3305ba14275b8ccee378043fa6ae7b6fd7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a799406375926d0bb7f302459dada14937679f51" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a87d5808ff857cfe0b60428c89e1ccb25b17407f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8e2d79299fddec29114b20a9892feb7e9c0a5aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editor/cn/P145Debug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../netty/netty-studty/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../netty/netty-studty/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../netty/netty-studty/01-primary/src/main/java/com/ajing/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61060df8b4918a5ef1907cfd75b3cee4d1f73e48" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61060df8b4918a5ef1907cfd75b3cee4d1f73e48" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6204cd4c5aa3cae35ba43fc9b8100621da673a62" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6204cd4c5aa3cae35ba43fc9b8100621da673a62" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69a25bfc4b00ac6b0969d1632859b733ecf2d561" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69a25bfc4b00ac6b0969d1632859b733ecf2d561" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90d64e6e1d33cf23bf15f58464356613641cd83e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90d64e6e1d33cf23bf15f58464356613641cd83e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9872be65209404ab30956ab0e44ec6617975f702" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9872be65209404ab30956ab0e44ec6617975f702" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d34e11a97dedfc09aa16e6216adc03a7714487a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d34e11a97dedfc09aa16e6216adc03a7714487a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e82b085711f49f27c1df8a5d8ccfafa5d37a5f1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e82b085711f49f27c1df8a5d8ccfafa5d37a5f1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da6540a90483c8348f1ecc2d13d28caf6787c665" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da6540a90483c8348f1ecc2d13d28caf6787c665" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e47e3c876e36ec4b5f45ad4a3401ec333d08896e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e47e3c876e36ec4b5f45ad4a3401ec333d08896e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/P142LinkedListCycleIi .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P142LinkedListCycleIi .java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/P16ThreeSumClosest .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P16ThreeSumClosest .java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/P197RisingTemperature .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P197RisingTemperature .java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/P322CoinChange .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P322CoinChange .java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/P509FibonacciNumber .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P509FibonacciNumber .java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/P50PowxN .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P50PowxN .java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P142LinkedListCycleIi$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P142LinkedListCycleIi$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/P142LinkedListCycleIi$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P142LinkedListCycleIi.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/P142LinkedListCycleIi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mybatis/mybatis-demo/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis/mybatis-demo/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../netty/netty-studty/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-studty/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../netty/netty-studty/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/netty-studty/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +39,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
         <entry key="$USER_HOME$/Desktop/java架构师/java/spring-01/spring-01/spring-framework-5.0.7.RELEASE" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/soft/apache-maven-3.6.0/repository/org/springframework/kafka/spring-kafka/1.1.8.RELEASE/spring-kafka-1.1.8.RELEASE.jar!/org/springframework/kafka/annotation/KafkaListener.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Optional.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -185,6 +148,9 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RunManager" selected="Application.P145BinaryTreePostorderTraversal">
     <configuration name="P104MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P104MaximumDepthOfBinaryTree" />
@@ -264,7 +230,7 @@
       <workItem from="1613746765833" duration="14000" />
       <workItem from="1614950455568" duration="151000" />
       <workItem from="1614950611020" duration="4998000" />
-      <workItem from="1617462185799" duration="1919000" />
+      <workItem from="1617462185799" duration="3723000" />
     </task>
     <task id="LOCAL-00001" summary="sadfad">
       <created>1609340646208</created>
