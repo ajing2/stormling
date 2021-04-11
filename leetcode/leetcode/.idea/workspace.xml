@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ef2b4b-54fe-4db4-bf6b-961cc71bd35b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4396fd7c573fe6832124106f9add4dafda8e3299" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4396fd7c573fe6832124106f9add4dafda8e3299" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -145,13 +155,13 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
-  <component name="RunManager" selected="Application.P145BinaryTreePostorderTraversal">
+  <component name="RunManager" selected="Application.P373FindKPairsWithSmallestSums">
     <configuration name="P104MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P104MaximumDepthOfBinaryTree" />
       <module name="leetcode" />
@@ -180,6 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P373FindKPairsWithSmallestSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P373FindKPairsWithSmallestSums" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -196,9 +213,11 @@
       <item itemvalue="Application.P104MaximumDepthOfBinaryTree" />
       <item itemvalue="Application.P202HappyNumber" />
       <item itemvalue="Application.P145BinaryTreePostorderTraversal" />
+      <item itemvalue="Application.P373FindKPairsWithSmallestSums" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P373FindKPairsWithSmallestSums" />
         <item itemvalue="Application.P145BinaryTreePostorderTraversal" />
         <item itemvalue="Application.P202HappyNumber" />
         <item itemvalue="Application.P104MaximumDepthOfBinaryTree" />
@@ -231,6 +250,11 @@
       <workItem from="1614950455568" duration="151000" />
       <workItem from="1614950611020" duration="4998000" />
       <workItem from="1617462185799" duration="3723000" />
+      <workItem from="1618067875304" duration="1251000" />
+      <workItem from="1618151816781" duration="221000" />
+      <workItem from="1618152067943" duration="246000" />
+      <workItem from="1618152333557" duration="22000" />
+      <workItem from="1618152500114" duration="1764000" />
     </task>
     <task id="LOCAL-00001" summary="sadfad">
       <created>1609340646208</created>
@@ -361,6 +385,16 @@
           <line>267</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/editor/cn/P373FindKPairsWithSmallestSums .java</url>
+          <line>70</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/editor/cn/P373FindKPairsWithSmallestSums .java</url>
+          <line>56</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="5" />
@@ -372,6 +406,12 @@
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="maxHeap.size() &lt; k" language="JAVA" />
+        <watch expression="nums1[i] + nums2[j] &lt; maxHeap.peek()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/leetcode/editor/cn/[25]K 个一组翻转链表.java" />
