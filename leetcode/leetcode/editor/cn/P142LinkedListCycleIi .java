@@ -62,23 +62,26 @@ class P142LinkedListCycleIi{
  * }
  */
 
-public static class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
 
 
 public class Solution {
+
     public ListNode detectCycle(ListNode head) {
-        Set<ListNode> dataSet = new HashSet<>();
-        ListNode start = head;
-        while (start != null) {
-            if (dataSet.contains(start)) {
-                return start;
+        ListNode slow = head;
+        ListNode fast = head;
+        while (slow != null && fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                fast = head;
+                while (slow != fast) {
+                    slow = slow.next;
+                    fast = fast.next;
+                    if (slow == fast) {
+                        return slow;
+                    }
+                }
             }
-            dataSet.add(start);
-            start = start.next;
         }
         return null;
     }

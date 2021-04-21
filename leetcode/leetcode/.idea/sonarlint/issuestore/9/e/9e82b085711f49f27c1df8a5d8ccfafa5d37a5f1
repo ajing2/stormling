@@ -1,15 +1,27 @@
 
+<<<<<<< HEAD
 W
 java:S1854 "<Remove this useless assignment to local variable "solution".(¸¦žÊþÿÿÿÿ
+=======
+H
+java:S1481 "-Remove this unused "solution" local variable.(¸¦žÊþÿÿÿÿ
+>>>>>>> 94af16a56429847d18e58ad8379de2b7e1042d28
 B
 java:S1481B",Remove this unused "visited" local variable.(øÉ·’
 0
 java:S1220""Move this file to a named package.
 Q
 java:S1854B";Remove this useless assignment to local variable "visited".(øÉ·’
+<<<<<<< HEAD
 H
 java:S1481 "-Remove this unused "solution" local variable.(¸¦žÊþÿÿÿÿ
 L
 java:S3740B"/Provide the parametrized type for this generic.(øÉ·’8…‚Ñƒ€/
 L
 java:S3740B"/Provide the parametrized type for this generic.(øÉ·’8…‚Ñƒ€/
+=======
+0
+java:S1220""Move this file to a named package.
+W
+java:S1854 "<Remove this useless assignment to local variable "solution".(¸¦žÊþÿÿÿÿ
+>>>>>>> 94af16a56429847d18e58ad8379de2b7e1042d28

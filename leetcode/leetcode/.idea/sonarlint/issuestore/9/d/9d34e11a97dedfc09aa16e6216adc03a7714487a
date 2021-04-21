@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 E
 java:S1128""*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
 b	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ñê^
@@ -6,5 +7,14 @@ b	java:S100D"NRename this method name to match the regular expression '^[a-z][
 java:S1220""Move this file to a named package.
 C
 java:S1481'"-Remove this unused "solution" local variable.(ˆµ¬Ç
+=======
+C
+java:S1481'"-Remove this unused "solution" local variable.(ˆµ¬Ç
+b	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ñê^
+0
+java:S1220""Move this file to a named package.
+E
+java:S1128""*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+>>>>>>> 94af16a56429847d18e58ad8379de2b7e1042d28
 R
 java:S1854'"<Remove this useless assignment to local variable "solution".(ˆµ¬Ç
