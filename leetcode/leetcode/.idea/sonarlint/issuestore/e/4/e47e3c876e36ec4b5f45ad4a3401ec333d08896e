@@ -1,9 +1,4 @@
 
 0
 java:S1220""Move this file to a named package.
-H
-java:S1481"-Remove this unused "solution" local variable.(¶çºŠüÿÿÿÿ
-W
-java:S1854"<Remove this useless assignment to local variable "solution".(¶çºŠüÿÿÿÿ
-œ
-java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ðë¡ˆþÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(¤¡òŸüÿÿÿÿ8áã×ƒ€/

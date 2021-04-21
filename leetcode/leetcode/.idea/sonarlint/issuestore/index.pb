@@ -29,3 +29,7 @@ R
 "editor/cn/P16ThreeSumClosest .java,e/4/e47e3c876e36ec4b5f45ad4a3401ec333d08896e
 K
 editor/cn/P15ThreeSum .java,6/9/69a25bfc4b00ac6b0969d1632859b733ecf2d561
+G
+editor/cn/ListNode.java,a/8/a87d5808ff857cfe0b60428c89e1ccb25b17407f
+U
+%editor/cn/P92ReverseLinkedListIi.java,e/7/e7e9dd1e00bc5b454871005ac874867473c813fd

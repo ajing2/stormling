@@ -2,16 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ef2b4b-54fe-4db4-bf6b-961cc71bd35b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editor/cn/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65cd7446e83d2918a857a0519f6cfc292c784cdf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65cd7446e83d2918a857a0519f6cfc292c784cdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a276d72fea4ebace208ba18bc3c80e11a0cdf7b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a276d72fea4ebace208ba18bc3c80e11a0cdf7b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90d64e6e1d33cf23bf15f58464356613641cd83e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90d64e6e1d33cf23bf15f58464356613641cd83e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb45233a0506156b2b61f751d9ac0fd541f8b64f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb45233a0506156b2b61f751d9ac0fd541f8b64f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61060df8b4918a5ef1907cfd75b3cee4d1f73e48" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61060df8b4918a5ef1907cfd75b3cee4d1f73e48" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6204cd4c5aa3cae35ba43fc9b8100621da673a62" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6204cd4c5aa3cae35ba43fc9b8100621da673a62" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69a25bfc4b00ac6b0969d1632859b733ecf2d561" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69a25bfc4b00ac6b0969d1632859b733ecf2d561" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9872be65209404ab30956ab0e44ec6617975f702" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9872be65209404ab30956ab0e44ec6617975f702" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d34e11a97dedfc09aa16e6216adc03a7714487a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d34e11a97dedfc09aa16e6216adc03a7714487a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e82b085711f49f27c1df8a5d8ccfafa5d37a5f1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e82b085711f49f27c1df8a5d8ccfafa5d37a5f1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da6540a90483c8348f1ecc2d13d28caf6787c665" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da6540a90483c8348f1ecc2d13d28caf6787c665" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e47e3c876e36ec4b5f45ad4a3401ec333d08896e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e47e3c876e36ec4b5f45ad4a3401ec333d08896e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/P16ThreeSumClosest .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P16ThreeSumClosest .java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/P197RisingTemperature .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P197RisingTemperature .java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/P322CoinChange .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P322CoinChange .java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/P509FibonacciNumber .java" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/P509FibonacciNumber .java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/P50PowxN .java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/all.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/cn/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/P104MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/P25ReverseNodesInKGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor/production/leetcode/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/editor/production/leetcode/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/leetcode/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/leetcode/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/leetcode/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/leetcode/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/leetcode/translation.json" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,143 +58,15 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1567756307">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="40" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="40" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="2310" />
-          <entry key="txt" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2310" />
-          <entry key="PLAIN_TEXT" value="6" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="leetcode" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P102BinaryTreeLevelOrderTraversal .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1771">
-              <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#2444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P22GenerateParentheses .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P16ThreeSumClosest .java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P15ThreeSum .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P239SlidingWindowMaximum .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1989#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P212WordSearchIi .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#3723#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P206ReverseLinkedList .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P197RisingTemperature .java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1073#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P191NumberOf1Bits .java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/cn/P111MinimumDepthOfBinaryTree .java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -201,6 +100,7 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectId" id="1pJy7XsWuPeFa9hLw7bsmUaJJyq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -290,12 +190,23 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612178349744" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -303,19 +214,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.P104MaximumDepthOfBinaryTree">
+  <component name="RunManager" selected="Application.ReverseLinkedListIi">
     <configuration name="P104MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P104MaximumDepthOfBinaryTree" />
       <module name="leetcode" />
@@ -330,17 +229,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseLinkedListIi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseLinkedListIi" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.P25ReverseNodesInKGroup" />
       <item itemvalue="Application.P104MaximumDepthOfBinaryTree" />
+      <item itemvalue="Application.ReverseLinkedListIi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedListIi" />
         <item itemvalue="Application.P104MaximumDepthOfBinaryTree" />
         <item itemvalue="Application.P25ReverseNodesInKGroup" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -362,6 +284,8 @@
       <workItem from="1612169364314" duration="5024000" />
       <workItem from="1612255122693" duration="1168000" />
       <workItem from="1613746765833" duration="14000" />
+      <workItem from="1614915321708" duration="1023000" />
+      <workItem from="1615381560801" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="sadfad">
       <created>1609340646208</created>
@@ -463,10 +387,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sadfad" />
@@ -477,8 +398,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/editor/cn/P212WordSearchIi .java</url>
-          <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/editor/cn/P92ReverseLinkedListIi.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/editor/cn/P92ReverseLinkedListIi.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/editor/cn/P92ReverseLinkedListIi.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

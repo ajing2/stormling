@@ -1,11 +1,11 @@
 
-J
-java:S1066?"/Merge this if statement with the enclosing one.(†”œãþÿÿÿÿ
 F
 java:S1128+"1Remove this unused import 'java.util.LinkedList'.(»Äð1
-H
-java:S14810"-Remove this unused "solution" local variable.(¬Èº‚ýÿÿÿÿ
+J
+java:S1066?"/Merge this if statement with the enclosing one.(†”œãþÿÿÿÿ
 0
 java:S1220""Move this file to a named package.
+H
+java:S14810"-Remove this unused "solution" local variable.(¬Èº‚ýÿÿÿÿ
 W
 java:S18540"<Remove this useless assignment to local variable "solution".(¬Èº‚ýÿÿÿÿ
