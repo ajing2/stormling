@@ -1,0 +1,15 @@
+
+m
+java:S37762"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(“ŽæÀüÿÿÿÿ
+Q	java:S125-"<This block of commented-out lines of code should be removed.(îÆ”Ò
+N	java:S106."9Replace this use of System.out or System.err by a logger.(ï£ö±
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(ãüð£
+0
+java:S1220""Move this file to a named package.
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(Þøä½
+2
+java:S1643;"Use a StringBuilder instead.(¯ãü¸
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(Ú§óßÿÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(¢˜ð‡
+7
+java:S1643M"Use a StringBuilder instead.(êÚ¥úÿÿÿÿ

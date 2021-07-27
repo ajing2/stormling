@@ -18,7 +18,7 @@ import java.util.HashMap;
 
 //Java：两数之和
 class P1TwoSum{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Solution solution = new P1TwoSum().new Solution();
         // TO TEST
         int[] nums = new int[]{2, 7, 11, 15};
@@ -26,6 +26,9 @@ class P1TwoSum{
         int[] res = solution.twoSum(nums, target);
         System.out.println(res[0] + res[1]);
         System.out.println(res[1]);
+        while (true) {
+            Thread.sleep(Long.MAX_VALUE);
+        }
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

@@ -1,3 +1,7 @@
 
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(ý°Ââûÿÿÿÿ8ÇµøÚµ.
+7
+java:S1220""Move this file to a named package.8àšê–š/
+D
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8ª ë–š/
 T	java:S106"9Replace this use of System.out or System.err by a logger.(¦°Ê}8¶ß÷Úµ.
